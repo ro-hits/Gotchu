@@ -128,7 +128,6 @@ One GitHub Actions workflow with two jobs:
 - One YAML config per store. `jtv.yaml` gets added when the JTV work starts, not as a stub now.
 - Tooling: Preact, Vite, Vitest, ESLint and Prettier for the widget. FastAPI, Pydantic, pytest, ruff and mypy for the server.
 - The server never changes the cart (see Architecture).
-- The GitHub repo is still named `gotcha`. Rename it, or keep it?
 - A private repo on the free plan can't block direct pushes to `main`. Until we move to an org or a paid plan, "no direct pushes" is a team rule.
 
 ## Left out (ask if you want any of these)
